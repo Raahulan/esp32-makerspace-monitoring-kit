@@ -1,11 +1,11 @@
-<p align="center">
-  <img src="images/demo.gif" width="900" alt="ESP32 Makerspace Monitoring Kit Demo"/>
-</p>
-
 <h1 align="center">ESP32 Makerspace Monitoring Kit</h1>
 
 <p align="center">
   Ultrasonic Distance • DHT11 Temperature & Humidity • OLED Display
+</p>
+
+<p align="center">
+  <img src="images/dev_kit.png" width="850" alt="ESP32 Dev Kit Monitoring System"/>
 </p>
 
 <p align="center">
@@ -15,8 +15,10 @@
 ---
 
 ## 🔍 Overview
-This project is an **ESP32-based educational monitoring system** developed for **American Corner Makerspace student workshops**.  
-It demonstrates **real-time sensor interfacing** and **OLED visualization** using a beginner-friendly and expandable embedded design.
+This project is an **ESP32-based educational monitoring system** developed for
+**American Corner Makerspace student workshops**.  
+It demonstrates **real-time sensor interfacing** and **OLED visualization**
+using a beginner-friendly and expandable embedded system design.
 
 The system integrates:
 - **Ultrasonic sensor** for distance measurement  
@@ -30,7 +32,7 @@ The system integrates:
 - Temperature & humidity monitoring using DHT11  
 - Live OLED display using I2C communication  
 - Stable refresh with clear and readable UI  
-- Beginner-friendly code structure  
+- Beginner-friendly and expandable code structure  
 - Designed for workshops, demos, and training sessions  
 
 ---
@@ -72,7 +74,8 @@ The system integrates:
 | OLED SDA         | GPIO 21    |
 | OLED SCL         | GPIO 22    |
 
-> *Note: HC-SR04 ECHO pin outputs 5V. Use a voltage divider or logic level shifter before connecting to ESP32.*
+> *Note: HC-SR04 ECHO pin outputs 5V.  
+> Use a voltage divider or logic level shifter before connecting to ESP32.*
 
 ---
 
