@@ -15,14 +15,13 @@
 ---
 
 ## 🔍 Overview
-This project is an **ESP32-based educational monitoring system** developed for
-**American Corner Makerspace student workshops**.  
-It demonstrates **real-time sensor interfacing** and **OLED visualization**
-using beginner-friendly and expandable embedded system design.
+This project is an **ESP32-based educational monitoring system** developed for **American Corner Makerspace student workshops**.  
+It demonstrates **real-time sensor interfacing** and **OLED visualization** using a beginner-friendly and expandable embedded design.
 
-The system integrates an **ultrasonic sensor** for distance measurement,
-a **DHT11 sensor** for temperature and humidity monitoring, and an
-**SSD1306 OLED display** for live data visualization.
+The system integrates:
+- **Ultrasonic sensor** for distance measurement  
+- **DHT11 sensor** for temperature and humidity monitoring  
+- **SSD1306 OLED display (I2C)** for live data visualization  
 
 ---
 
@@ -64,40 +63,41 @@ a **DHT11 sensor** for temperature and humidity monitoring, and an
 
 ---
 
-## 🎓 Educational Use Case
-- Embedded systems training  
-- Sensor interfacing workshops  
-- Makerspace demonstrations  
-- Introduction to OLED displays and I2C  
-- Foundation project for IoT and automation learning  
-
----
-
 ## 🔌 Pin Configuration (Example)
-| Component     | ESP32 GPIO |
-|---------------|------------|
-| DHT11 DATA    | GPIO 4     |
-| Ultrasonic TRIG | GPIO 5   |
-| Ultrasonic ECHO | GPIO 18* |
-| OLED SDA      | GPIO 21    |
-| OLED SCL      | GPIO 22    |
+| Component        | ESP32 GPIO |
+|------------------|------------|
+| DHT11 DATA       | GPIO 4     |
+| Ultrasonic TRIG  | GPIO 5     |
+| Ultrasonic ECHO  | GPIO 18*   |
+| OLED SDA         | GPIO 21    |
+| OLED SCL         | GPIO 22    |
 
-> *Note: HC-SR04 ECHO pin outputs 5V.  
-> Use a voltage divider or logic level shifter before connecting to ESP32.*
+> *Note: HC-SR04 ECHO pin outputs 5V. Use a voltage divider or logic level shifter before connecting to ESP32.*
 
 ---
 
 ## 🖼️ Project Images
 
-### 🔹 Hardware Setup
+### 🔹 Hardware Setup & Output
 <p align="center">
-  <img src="images/setup.jpg" width="450"/>
-  <img src="images/oled_output.jpg" width="450"/>
+  <img src="images/setup.jpg" width="420" alt="Hardware Setup"/>
+  <img src="images/oled_output.jpg" width="420" alt="OLED Output"/>
 </p>
 
-### 🔹 Wiring Diagram
+### 🔹 PCB Design
 <p align="center">
-  <img src="images/wiring_diagram.png" width="700"/>
+  <img src="images/pcb_design.png" width="700" alt="PCB Design"/>
+</p>
+
+### 🔹 Workshop Activities
+<p align="center">
+  <img src="images/soldering.jpg" width="280" alt="Soldering Session"/>
+  <img src="images/certificate_award.jpg" width="280" alt="Certificate Awarding"/>
+  <img src="images/group_photo.jpg" width="280" alt="Group Photo"/>
+</p>
+
+<p align="center">
+  <i>Soldering session, certificate awarding, and group photo from the makerspace workshop</i>
 </p>
 
 ---
