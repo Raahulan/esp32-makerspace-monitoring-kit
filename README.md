@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="images/dev_kit.png" width="850" alt="ESP32 Dev Kit Monitoring System"/>
+  <img src="images/dev_kit.jpg" width="850" alt="ESP32 Dev Kit Monitoring System"/>
 </p>
 
 <p align="center">
